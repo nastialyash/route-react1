@@ -51,6 +51,16 @@ function SideBar(){
               </Link> ,
               label: 'Login',
             },
+           {
+    key: '5',
+    icon: <UserAddOutlined />,
+    label: <Link to="/register">Register</Link>,
+  },
+            {
+    key: '6',
+    icon: <TableOutlined />,
+    label: <Link to="/user-table">User Table</Link>,
+  },
           ]}
         />
       </Sider>

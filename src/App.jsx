@@ -9,6 +9,8 @@ import { useState } from 'react'
 import Login from './components/Login'
 import SideBar from './components/SideBar'
 import UserList from './components/UserList'
+import UserTable from './components/UserTable'
+import Register from './components/Register'
 const { Header, Sider, Content } = Layout;
 
 
@@ -40,6 +42,8 @@ const App = () => {
                <Route path="/privacy" element={<Privacy/>}/>
                <Route path='/login' element={<Login/>}/>
                <Route path='/users' element={<UserList/>}/>
+               <Route path="/register" element={<Register/>}/>
+               <Route path="/user-table" element={<UserTable/>}/>
                <Route path="*" element={<h2>Page not found</h2>}/>
                {/* <About/>
                <Privacy/> */}
